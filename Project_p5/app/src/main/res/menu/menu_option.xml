@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_search"
+        android:title="Search"
+        android:icon="@drawable/Search2"
+        app:showAsAction="always"
+        app:actionViewClass="android.support.v7.widget.SearcgView"
+        />
+
+    <item
+        android:id="@+id/menu_search"
+        android:title="검색"
+        android:icon="@drawable/menu_search"
+        android:orderInCategory="101"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/menu_apple"
+        android:title="검색"
+        android:icon="@drawable/apple"
+        android:orderInCategory="102"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/menu_Alram"
+        android:title="검색"
+        android:icon="@drawable/finger_pressed"
+        android:orderInCategory="103"
+        app:showAsAction="always"/>
+
+
+
+
+</menu>
